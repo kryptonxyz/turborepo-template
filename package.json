@@ -3,11 +3,21 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "lint-staged": {
+    "apps/**/*.{js,jsx,ts,tsx}": "prettier --write",
+    "packages/**/*.{js,jsx,ts,tsx}": "prettier --write"
   },
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.5.1",
     "turbo": "latest"
   }
