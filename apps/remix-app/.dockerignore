@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# logs
+*.log
+
+# misc
+/.cache
+
+# dependencies
+/node_modules
+
+# dist
+/public/build
+/build
+
+# secrets
+.env

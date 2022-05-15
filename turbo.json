@@ -6,7 +6,10 @@
       ],
       "outputs": [
         "dist/**",
-        ".next/**"
+        ".next/**",
+        "build/**",
+        "public/build/**",
+        "api/**"
       ]
     },
     "lint": {
