@@ -1,8 +1,7 @@
 {
-  "name": "remix-template",
   "private": true,
-  "description": "Template to quick-start a Remix app with everything configured!",
-  "license": "UNLICENSED",
+  "name": "remix-app",
+  "description": "Remix app powered by Turborepo",
   "sideEffects": false,
   "scripts": {
     "build": "run-s build:*",

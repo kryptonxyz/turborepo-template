@@ -1,7 +1,7 @@
 {
-  "name": "next-app",
-  "version": "0.0.0",
   "private": true,
+  "name": "next-app",
+  "description": "Next app powered by Turborepo",
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
